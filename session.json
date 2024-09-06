@@ -1,0 +1,28 @@
+{
+    "__meta__": {
+        "about": "HTTPie session file",
+        "help": "https://httpie.io/docs#sessions",
+        "httpie": "3.2.3"
+    },
+    "auth": {
+        "password": null,
+        "type": null,
+        "username": null
+    },
+    "cookies": [
+        {
+            "domain": "localhost.local",
+            "expires": 3872364833,
+            "name": "fusionauth.sso",
+            "path": "/",
+            "secure": false,
+            "value": "AsbaiYYdWIFLBpt_SqRLOQmY2stozBQ4RlkyZ9HxaCBs"
+        }
+    ],
+    "headers": [
+        {
+            "name": "Authorization",
+            "value": "this_really_should_be_a_long_random_alphanumeric_value_but_this_still_works"
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "default_options": [
+        "--session-read-only=/workspace/fusionauth-docker-install/session.json"
+    ]
+}
