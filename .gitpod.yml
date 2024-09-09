@@ -54,3 +54,7 @@ ports:
   - port: 5432
     onOpen: ignore
     visibility: public
+    
+vscode:
+  extensions:
+    - vsls-contrib.codetour
