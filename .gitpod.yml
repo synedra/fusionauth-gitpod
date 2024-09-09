@@ -54,3 +54,8 @@ ports:
   - port: 5432
     onOpen: ignore
     visibility: public
+
+vscode:
+   extensions:
+    - https://github.com/DataStax-Academy/katapod/releases/download/stable/katapod-stable.vsix
+
