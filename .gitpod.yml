@@ -23,7 +23,7 @@ tasks:
       gp open intro.md
       fusionauth/bin/startup.sh
       echo "Waiting for the FusionAuth server to start up"
-      bash wait.sh
+      bash serverup.sh
       echo "Starting up the ChangeBank React application"
       cd complete-application
       npm install
