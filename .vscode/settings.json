@@ -13,6 +13,5 @@
     "terminal.integrated.defaultLocation": "view",
     "workbench.editor.showTabs": false,
     "breadcrumbs.enabled": false,
-    "zenMode.fullScreen": false,
-    "workbench.startupEditor": "none"
+    "zenMode.fullScreen": false
 }
