@@ -11,11 +11,11 @@ tasks:
       DATABASE_URL: "jdbc:postgresql://localhost:5432/fusionauth"
       DATABASE_ROOT_USERNAME: "gitpod"
       DATABASE_ROOT_PASSWORD: "password"
-      FUSIONAUTH_APP_KICKSTART_FILE: "/workspace/fusionauth-docker-install/kickstart/kickstart.json"
+      FUSIONAUTH_APP_KICKSTART_FILE: "/workspace/fusionauth-gitpod-install/kickstart/kickstart.json"
       INSTALL_SEARCH: 1
     init: |
-      bash /workspace/fusionauth-docker-install/install.sh   
-      bash /workspace/fusionauth-docker-install/ports.sh
+      bash /workspace/fusionauth-gitpod-install/install.sh   
+      bash /workspace/fusionauth-gitpod-install/ports.sh
     command: |
       pip3 install httpie 
       mkdir ~gitpod/.config/httpie
