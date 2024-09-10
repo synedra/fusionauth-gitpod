@@ -42,7 +42,7 @@
                             "POST",
                             "OPTIONS"
                         ],
-                        "allowedOrigins": [ "http://localhost:9012" ],
+                        "allowedOrigins": [ "FUSIONAUTH_9012_URL" ],
                         "debug": false,
                         "enabled": true,
                         "preflightMaxAgeInSeconds": 0
@@ -74,10 +74,10 @@
               "application": {
                 "name": "Example app",
                 "oauthConfiguration" : {
-                    "authorizedRedirectURLs": ["http://localhost:9012/callback"],
-                    "authorizedOriginURLs": ["http://localhost:9012"],
+                    "authorizedRedirectURLs": ["FUSIONAUTH_9012_URL/callback"],
+                    "authorizedOriginURLs": ["FUSIONAUTH_9012_URL"],
                     "clientSecret": "super-secret-secret-that-should-be-regenerated-for-production",
-                    "logoutURL": "http://localhost:9012/logout",
+                    "logoutURL": "FUSIONAUTH_9012_URL/logout",
                     "enabledGrants": ["authorization_code","refresh_token"],
                     "debug": true,
                     "generateRefreshTokens": true
