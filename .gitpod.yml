@@ -57,4 +57,4 @@ ports:
     
 vscode:
   extensions:
-    - https://github.com/synedra/katapod/blob/main/katapod-1.3.0.vsix
+    - katapod-1.3.0.vsix
