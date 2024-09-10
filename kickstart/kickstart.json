@@ -77,7 +77,7 @@
                     "authorizedRedirectURLs": ["REACT_APP_REDIRECT"],
                     "authorizedOriginURLs": ["REACT_APP_REDIRECT"],
                     "clientSecret": "super-secret-secret-that-should-be-regenerated-for-production",
-                    "logoutURL": "REACT_APP_REDIRECT",
+                    "logoutURL": "REACT_APP_REDIRECT/logged-out",
                     "enabledGrants": ["authorization_code","refresh_token"],
                     "debug": true,
                     "generateRefreshTokens": true
