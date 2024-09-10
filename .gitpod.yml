@@ -29,11 +29,6 @@ tasks:
       npm install
       npm run dev &
       gp preview `gp url 9011`/admin
-     
-
-  # --------------------------------------
-  - name: working-terminal
-    openMode: split-right
 
 ports:
   - port: 9011
@@ -54,7 +49,3 @@ ports:
   - port: 5432
     onOpen: ignore
     visibility: public
-    
-vscode:
-  extensions:
-    - hadesarchitect.katapod
