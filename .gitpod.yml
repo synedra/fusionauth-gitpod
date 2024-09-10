@@ -57,4 +57,4 @@ ports:
     
 vscode:
   extensions:
-    - katapod-1.3.0.vsix
+    - hadesarchitect.katapod
