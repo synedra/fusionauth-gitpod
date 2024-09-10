@@ -1,16 +1,6 @@
 {
-    "workbench.startupEditor": "none",
     "workbench.editorAssociations": 
         {
             "*.md": "vscode.markdown.preview.editor",
-        },
-    "terminal.integrated.tabs.enabled": false,
-    "workbench.panel.defaultLocation": "right",
-    "workbench.panel.opensMaximized": "preserve",
-    "editor.minimap.enabled": false,
-    "terminal.integrated.defaultLocation": "view",
-    "workbench.editor.showTabs": "single",
-    "breadcrumbs.enabled": false,
-    "zenMode.fullScreen": false,
-    "workbench.activityBar.location": "hidden"
+        }
 }
