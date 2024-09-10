@@ -28,7 +28,7 @@ tasks:
       cd complete-application
       npm install
       npm run dev &
-      gp preview `gp url 9011`/admin
+      gp preview `gp url 9011`/admin & gp open intro.md
 
 ports:
   - port: 9011
