@@ -6,7 +6,7 @@ tasks:
   # ------------------------------------
   # Start FusionAuth in Docker
   # ------------------------------------
-  - name: fusionauth-server
+  - name: cqlsh
     env: 
       DATABASE_URL: "jdbc:postgresql://localhost:5432/fusionauth"
       DATABASE_ROOT_USERNAME: "gitpod"
@@ -29,8 +29,6 @@ tasks:
       npm install
       npm run dev &
       gp preview `gp url 9011`/admin
-      gp open intro.md
-      
 
 ports:
   - port: 9011
