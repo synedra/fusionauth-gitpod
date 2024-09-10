@@ -74,10 +74,10 @@
               "application": {
                 "name": "Example app",
                 "oauthConfiguration" : {
-                    "authorizedRedirectURLs": ["REACT_APP_REDIRECT/callback"],
+                    "authorizedRedirectURLs": ["REACT_APP_REDIRECT"],
                     "authorizedOriginURLs": ["REACT_APP_REDIRECT"],
                     "clientSecret": "super-secret-secret-that-should-be-regenerated-for-production",
-                    "logoutURL": "REACT_APP_REDIRECT/logout",
+                    "logoutURL": "REACT_APP_REDIRECT",
                     "enabledGrants": ["authorization_code","refresh_token"],
                     "debug": true,
                     "generateRefreshTokens": true
