@@ -11,15 +11,14 @@ You can interact with the server using the web UI or the API (or both!)
 To open a webpage with the Fusionauth server, click below.
 
 ```
-gp open `gp url 9011`
+gp preview `gp url 9011`
 ```
 
 Login to the Fusionauth UI with the following credentials:
 
-```
-Username: admin@example.com
-Password: password
-```
+  - Username: admin@example.com
+  - Password: password
+
 
 # Create a new user
 
@@ -30,7 +29,7 @@ In the administration screen, click on the hamburger symbol on the upper left of
 To start up the application, click here.
 
 ```
-gp open `gp url 3000`
+gp preview `gp url 3000`
 ```
 
 
