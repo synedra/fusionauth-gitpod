@@ -57,4 +57,4 @@ ports:
     
 vscode:
   extensions:
-    - vsls-contrib.codetour
+    - https://github.com/DataStax-Academy/katapod/releases/download/stable/katapod-stable.vsix
