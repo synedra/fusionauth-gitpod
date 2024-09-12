@@ -49,3 +49,7 @@ ports:
   - port: 5432
     onOpen: ignore
     visibility: public
+
+vscode:
+  extensions:
+    synedra.katapod
