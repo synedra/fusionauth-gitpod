@@ -1,0 +1,59 @@
+{
+    "layout": {
+        "terminals": [
+          {
+            "id": "cqlsh",
+            "name": "main"
+          }
+        ]
+      },
+    "navigation": {
+      "onLoadCommands": {
+       "step1-web": {
+            "command": "HOME=/root sudo /home/gitpod/.pyenv/shims/http --auth-type astra  -a swag: POST :/rest/v2/keyspaces/swag/metrics key=$GITPOD_INSTANCE_ID path=astra date=`date +%s`",
+             "maxInvocations": "1" 
+        },
+        "step1-api": {
+            "cqlsh": [
+              {
+              "command": "HOME=/root sudo /home/gitpod/.pyenv/shims/http --auth-type astra  -a swag: POST :/rest/v2/keyspaces/swag/metrics key=$GITPOD_INSTANCE_ID path=astra date=`date +%s`",
+              "maxInvocations": "1"
+              }
+            ]
+          },
+        "step2-web": {
+            "sqlsh": [
+              {
+                  "command": "HOME=/root sudo /home/gitpod/.pyenv/shims/http --auth-type astra  -a swag: POST :/rest/v2/keyspaces/swag/metrics key=$GITPOD_INSTANCE_ID path=cassandra date=`date +%s`",
+                   "maxInvocations": "1"
+              }
+            ]
+          },
+          "step2-api": {
+            "sqlsh": [
+              {
+                  "command": "HOME=/root sudo /home/gitpod/.pyenv/shims/http --auth-type astra  -a swag: POST :/rest/v2/keyspaces/swag/metrics key=$GITPOD_INSTANCE_ID path=cassandra date=`date +%s`",
+                   "maxInvocations": "1"
+              }
+            ]
+          },
+          "thanks-web": {
+            "sqlsh": [
+              {
+              "command": "HOME=/root sudo /home/gitpod/.pyenv/shims/http --auth-type astra  -a swag: POST :/rest/v2/keyspaces/swag/emails email=$GITPOD_GIT_USER_EMAIL path=astra date=`date +%s`",
+              "maxInvocations": "1"
+              }
+            ]
+          },
+        "thanks-api": {
+            "sqlsh": [
+              {
+                  "command": "HOME=/root sudo /home/gitpod/.pyenv/shims/http --auth-type astra  -a swag: POST :/rest/v2/keyspaces/swag/metrics email=$GITPOD_GIT_USER_EMAIL path=cassandra date=`date +%s`",
+                   "maxInvocations": "1"
+              }
+            ]
+          }
+      }
+    }
+  }
+  
