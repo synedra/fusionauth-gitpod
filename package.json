@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "vsce": "^2.15.0",
+    "vso-node-api": "^6.5.0"
+  }
+}
