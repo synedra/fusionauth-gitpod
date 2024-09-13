@@ -20,10 +20,8 @@ tasks:
       mkdir ~gitpod/.config/httpie
       cp .config/httpie/config.json ~gitpod/.config/httpie
       fusionauth/bin/startup.sh
-      echo "Starting up the ChangeBank React application"
       cd complete-application
       npm install
-      npm run dev
     command: |
       echo "Waiting for the FusionAuth server to start up"
       bash serverup.sh
