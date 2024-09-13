@@ -1,13 +1,37 @@
+# Using Fusionauth using the Web UI
 
-# Jump into Fusionauth - Getting Started
+<!-- TOP -->
+<div class="top">
+  <img src="https://cdn.prod.website-files.com/617b1b1f42c1da41aeae3413/6573599a9ea8c6ccef655afd_primary-logo.png" width=200/>
+  <div class="scenario-title-section">
+    <span class="scenario-title"><h3>Adding a New User</h3></span>
+    <br />
+    <span class="scenario-subtitle">ℹ️ For feedback, please contact us via <a href="mailto:kirsten.hunter@fusionauth.io">email</a>.</span>
+  </div>
+</div>
+
+<!-- NAVIGATION -->
+<div id="navigation-top" class="navigation-top">
+ <a href='command:katapod.loadPage?[{"step":"intro"}]' 
+   class="btn btn-dark navigation-top-left">⬅️ Back
+ </a>
+<span class="step-count"> Step 1 of 2</span>
+ <a href='command:katapod.loadPage?[{"step":"step2-web"}]' 
+    class="btn btn-dark navigation-top-right">Next ➡️ Registering the User
+  </a>
+</div>
+
+<!-- CONTENT -->
+
+## Jump into FusionAuth - Getting Started
 
 This workspace has been jumpstarted with a running fusionauth server and a running application.
 
-In this module you will be working with the web UI
+In this module you will be working with the web UI.
 
-# Interacting via the web UI
+## Start the FusionAuth Web UI
 
-To open a webpage with the Fusionauth server, click below.
+You may need to wait a few moments while the server comes up.  This command will open the web page as soon as it's available.
 
 ```
 echo "Waiting for the FusionAuth server to start up"
@@ -20,19 +44,22 @@ Login to the Fusionauth UI with the following credentials:
   - Username: admin@example.com
   - Password: password
 
-# Create a new user
+## Add a New User
 
 In the administration screen, click on the hamburger symbol on the upper left of the screen.  Select "Users"
 
-# Add the user to the example application
+Stuff to add here:
+* Image for opening Users
+* Image for creating user
 
-# Start up the application
-
-To start up the application, click here.
-
-```
-gp preview `gp url 3000`
-```
-
-# Logout from the admin user and login with Fred
+<!-- NAVIGATION -->
+<div id="navigation-top" class="navigation-top">
+ <a href='command:katapod.loadPage?[{"step":"intro"}]' 
+   class="btn btn-dark navigation-top-left">⬅️ Back
+ </a>
+<span class="step-count"> Step 1 of 2</span>
+ <a href='command:katapod.loadPage?[{"step":"step2-web"}]' 
+    class="btn btn-dark navigation-top-right">Next ➡️ Registering the User
+  </a>
+</div>
 
