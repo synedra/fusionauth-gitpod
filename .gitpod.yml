@@ -17,7 +17,6 @@ tasks:
       bash /workspace/fusionauth-gitpod-install/install.sh   
       bash /workspace/fusionauth-gitpod-install/ports.sh
     command: |
-      gp open welcome.md
       pip3 install httpie 
       mkdir ~gitpod/.config/httpie
       cp .config/httpie/config.json ~gitpod/.config/httpie
@@ -28,7 +27,7 @@ tasks:
       cd complete-application
       npm install
       npm run dev &
-      gp preview `gp url 9011`/admin & gp open ../intro.md
+      gp preview `gp url 9011`/admin & gp open ../choose.md
 
 ports:
   - port: 9011
