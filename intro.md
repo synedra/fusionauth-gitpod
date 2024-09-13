@@ -21,7 +21,6 @@
             </ul>
             <div class="scenario-objectives">In this hands-on lab, you will do the following:</div>
             <ul>
-              <li><span class="scenario-objective">Login to the UI using an administrator user</li>
               <li><span class="scenario-objective">Add a new user to the system</li>
               <li><span class="scenario-objective">Register your new user with an application</li>
               <li><span class="scenario-objective">Log in to the application with your new user</li>
