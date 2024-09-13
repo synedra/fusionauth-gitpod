@@ -35,19 +35,17 @@
           <div class="feature col div-choice">
             <div class="astradb-line1">Web UI for FusionAuth</div>
             <br />
-            <a href='command:katapod.loadPage?[{"step":"step1-web"}]' class="btn btn-primary btn-astra">
+            <a href='command:katapod.loadPage?[{"step":"step1-web"}]' class="btn btn-primary">
               Use the web UI
             </a>
           </div>
-          <!--
           <div class="feature col div-choice">
             <div class="cassandra-line1">Local deployment of open-source Apache Cassandra</div>
             <br/>
-            <a href='command:katapod.loadPage?[{"step":"step1-api"}]' class="btn btn-primary btn-cassandra">
+            <a href='command:katapod.loadPage?[{"step":"step1-api"}]' class="btn btn-primary">
               Use APIs from the command line
             </a>   
           </div>
-          -->
         </div>
     </div>
 </main>
