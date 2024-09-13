@@ -13,22 +13,20 @@ tasks:
       DATABASE_ROOT_PASSWORD: "password"
       FUSIONAUTH_APP_KICKSTART_FILE: "/workspace/fusionauth-gitpod-install/kickstart/kickstart.json"
       INSTALL_SEARCH: 1
-    init: |
+    before: |
       bash /workspace/fusionauth-gitpod-install/install.sh   
       bash /workspace/fusionauth-gitpod-install/ports.sh
-    command: |
-      gp open welcome.md
       pip3 install httpie 
       mkdir ~gitpod/.config/httpie
       cp .config/httpie/config.json ~gitpod/.config/httpie
       fusionauth/bin/startup.sh
-      echo "Waiting for the FusionAuth server to start up"
-      bash serverup.sh
       echo "Starting up the ChangeBank React application"
       cd complete-application
       npm install
-      npm run dev &
-      gp preview `gp url 9011`/admin & gp open ../intro.md
+      npm run dev
+    command: |
+      echo "Waiting for the FusionAuth server to start up"
+      bash serverup.sh
 
 ports:
   - port: 9011
