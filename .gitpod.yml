@@ -52,4 +52,4 @@ ports:
 
 vscode:
   extensions:
-    - princesspolymath.katapod
+    - synedra.katapod
