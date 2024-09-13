@@ -2,7 +2,7 @@
 
 This repository contains an Github hosted React app that works with a cloud hosted instance of FusionAuth.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/synedra/fusionauth-gitpod-install)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/synedra/fusionauth-gitpod)
 
 ## Overview
 
