@@ -14,7 +14,7 @@
     <div class="container px-4 py-2">
      <div class="row g-4 py-2 row-cols-1 row-cols-lg-1">
       <div class="feature col div-choice">
-            <div class="scenario-description">Run FusionAuth Using the Web UI</div>
+            <div class="scenario-description">First Steps with FusionAuth</div>
             <ul>
               <li><span class="scenario-description-attribute">Difficulty</span>: Beginner</li>
               <li><span class="scenario-description-attribute">Time</span>: 5 minutes</li>
