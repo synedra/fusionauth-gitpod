@@ -36,7 +36,7 @@ You may need to wait a few moments while the server comes up.  This command will
 ```
 echo "Waiting for the FusionAuth server to start up"
 bash serverup.sh
-http :/api/key
+http :9011/api/key
 ```
 
 For server interaction you will be using httpie with set authentication information.  Because of this you will not need to perform the authentication steps.
@@ -44,7 +44,7 @@ For server interaction you will be using httpie with set authentication informat
 If you want to see the whole HTTP transaction you can do so by adding -vvv to the command:
 
 ```
-http :/api/key -vvv
+http :9011/api/key -vvv
 ```
 
 ## Add a New User
@@ -52,7 +52,7 @@ http :/api/key -vvv
 The first step is to add a new user.  The user api takes an optional UUID for the user, which we will use here.
 
 ```
-http POST :/api/user/0279d75d-4a53-4288-9b4f-89662bf6a9cf user:='{"email":"foo@bar.com", "password":"mypassword"}
+http POST :9011/api/user/0279d75d-4a53-4288-9b4f-89662bf6a9cf user:='{"email":"foo@bar.com", "password":"mypassword"}
 ```
 
 This command will return the UUID to indicate the command was successful
