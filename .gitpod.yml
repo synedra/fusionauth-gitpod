@@ -50,4 +50,4 @@ ports:
 
 vscode:
   extensions:
-    synedra.katapod
+    - synedra.katapod
