@@ -13,7 +13,7 @@ tasks:
       DATABASE_ROOT_PASSWORD: "password"
       FUSIONAUTH_APP_KICKSTART_FILE: "/workspace/fusionauth-gitpod-install/kickstart/kickstart.json"
       INSTALL_SEARCH: 1
-    init: |
+    before: |
       bash /workspace/fusionauth-gitpod-install/install.sh   
       bash /workspace/fusionauth-gitpod-install/ports.sh
       pip3 install httpie 
