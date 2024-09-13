@@ -2,7 +2,7 @@
 <div class="top">
   <img src="https://cdn.prod.website-files.com/617b1b1f42c1da41aeae3413/6573599a9ea8c6ccef655afd_primary-logo.png" width=200/>
   <div class="scenario-title-section">
-    <span class="scenario-title">First Steps with FusionAuth</span>
+    <span class="scenario-title"><h3>First Steps with FusionAuth</h3></span>
     <br />
     <span class="scenario-subtitle">ℹ️ For feedback, please contact us via <a href="mailto:kirsten.hunter@fusionauth.io">email</a>.</span>
   </div>
