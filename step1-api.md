@@ -52,16 +52,11 @@ http :9011/api/key -vvv
 The first step is to add a new user.  The user api takes an optional UUID for the user, which we will use here.
 
 ```
-http POST :9011/api/user/0279d75d-4a53-4288-9b4f-89662bf6a9cf user:='{"email":"foo@bar.com", "password":"mypassword"}
+http POST :9011/api/user/0279d75d-4a53-4288-9b4f-89662bf6a9cf user:='{"email":"foo@bar.com", "password":"mypassword"}'
 ```
 
-This command will return the UUID to indicate the command was successful
+This command will return the user object to indicate the command was successful.
 
-In the administration screen, click on the hamburger symbol on the upper left of the screen.  Select "Users"
-
-Stuff to add here:
-* Image for opening Users
-* Image for creating user
 
 <!-- NAVIGATION -->
 <div id="navigation-top" class="navigation-top">
