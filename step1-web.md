@@ -10,6 +10,8 @@ In this module you will be working with the web UI
 To open a webpage with the Fusionauth server, click below.
 
 ```
+echo "Waiting for the FusionAuth server to start up"
+bash serverup.sh
 gp preview `gp url 9011`
 ```
 
