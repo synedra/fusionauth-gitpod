@@ -36,7 +36,7 @@ You may need to wait a few moments while the server comes up.  This command will
 ```
 echo "Waiting for the FusionAuth server to start up"
 bash serverup.sh
-gp preview `gp url 9011`
+gp preview `gp url 9011`/admin
 ```
 
 Login to the Fusionauth UI with the following credentials:
