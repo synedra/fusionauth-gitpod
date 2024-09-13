@@ -1,5 +1,5 @@
 {
     "default_options": [
-        "--session-read-only=/workspace/fusionauth-docker-install/session.json"
+        "--session-read-only=/workspace/fusionauth-gitpod-install/session.json"
     ]
 }
