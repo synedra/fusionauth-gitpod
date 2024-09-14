@@ -22,9 +22,6 @@ tasks:
       fusionauth/bin/startup.sh
       cd complete-application
       npm install
-    command: |
-      echo "Waiting for the FusionAuth server to start up"
-      bash serverup.sh
 
 ports:
   - port: 9011
@@ -48,4 +45,4 @@ ports:
 
 vscode:
    extensions:
-    - https://github.com/DataStax-Academy/katapod/releases/download/stable/katapod-stable.vsix
+    - synedra.katapod
