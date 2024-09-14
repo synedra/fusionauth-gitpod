@@ -47,5 +47,5 @@ ports:
     visibility: public
 
 vscode:
-  extensions:
-    - synedra.katapod
+   extensions:
+    - https://github.com/DataStax-Academy/katapod/releases/download/stable/katapod-stable.vsix
